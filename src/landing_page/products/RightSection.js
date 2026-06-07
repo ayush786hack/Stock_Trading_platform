@@ -17,16 +17,17 @@ export default function RightSection(
                    <p>{productDescription}</p>
                    <div className="d-flex justify-content-between">
       
-                      <a href={learnMore} style={{marginLeft :"50px"}}>Learn More</a>
+                      <a href={learnMore} >Learn More</a>
                
                    </div>
                  
                </div>
-            </div>
-               <div className="col-6 ">
+                <div className="col-6 ">
                    <img src={imageURL}  />
                </div>
              
+            </div>
+              
 
         </div>
     )
