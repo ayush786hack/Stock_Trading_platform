@@ -15,3 +15,81 @@ code {
 .nav-link{
   margin-left:40px;
 }
+/* Hero Section */
+#supportHero {
+  background-color: #387ed1;
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#supportWrapper h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#supportWrapper a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Search Section */
+#supportHero input {
+  width: 100%;
+  padding: 18px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#supportHero input:focus {
+  outline: none;
+}
+
+/* Links */
+#supportHero a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  line-height: 2.5;
+}
+
+#supportHero a:hover {
+  text-decoration: underline;
+}
+
+/* Featured List */
+#supportHero ol {
+  padding-left: 20px;
+}
+
+#supportHero li {
+  margin-bottom: 20px;
+}
+
+#supportHero li a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #supportWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  #supportHero .row {
+    flex-direction: column;
+  }
+
+  #supportHero .col-6 {
+    width: 100%;
+  }
+}
